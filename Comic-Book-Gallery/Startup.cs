@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Comic_Book_Gallery
+namespace ComicBookGallery
 {
     public class Startup
     {

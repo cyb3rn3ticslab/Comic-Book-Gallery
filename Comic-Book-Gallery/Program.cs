@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Comic_Book_Gallery
+namespace ComicBookGallery
 {
     public class Program
     {

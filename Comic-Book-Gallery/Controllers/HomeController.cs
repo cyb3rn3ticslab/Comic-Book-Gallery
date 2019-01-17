@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Comic_Book_Gallery.Models;
+using ComicBookGallery.Models;
 
-namespace Comic_Book_Gallery.Controllers
+namespace ComicBookGallery.Controllers
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
+
+
             return View();
         }
 
