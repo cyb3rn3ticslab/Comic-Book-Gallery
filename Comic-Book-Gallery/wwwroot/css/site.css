@@ -1,4 +1,4 @@
-﻿body {
+﻿﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -15,30 +15,38 @@ select,
 textarea {
     max-width: 280px;
 }
+.navbar-brand, .navbar-nav >li > a{
+    color: white;
+}
+.navbar-red {
+    background-color: firebrick;
+    
+}
 
 /* Backbar Styles */
-.backbar{
-  width: 100%;
-  background-color: #555;
-  margin-top: -10px;
-  height: 45px;
+.backbar {
+    width: 100%;
+    background-color: #555;
+    margin-top: 50px;
+    height: 45px;
 }
-  .backbar .btn{
-    margin-top: 4px;
-  }
+
+    .backbar .btn {
+        margin-top: 4px;
+    }
 
 /* Series List Styles */
-.series-list{
-  padding: 0;
+.series-list {
+    padding: 0;
 }
 
-.series-list li{
-  list-style: none;
-  border-bottom: 1px #ddd solid;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  }
+    .series-list li {
+        list-style: none;
+        border-bottom: 1px #ddd solid;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
 
-.series-list li:last-child{
-  border: none;
-}
+        .series-list li:last-child {
+            border: none;
+        }
